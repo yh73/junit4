@@ -68,6 +68,10 @@ public class AssertTest extends TestCase {
     public void testAssertStringEquals() {
         assertEquals("a", "a");
     }
+    
+    public void testAssertByteEquals() {
+        assertEquals((byte) 1, (byte) 1);
+    }
 
     public void testAssertNullNotEqualsString() {
         try {
