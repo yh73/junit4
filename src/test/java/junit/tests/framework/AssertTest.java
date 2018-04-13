@@ -25,7 +25,7 @@ public class AssertTest extends TestCase {
         }
         throw new AssertionFailedError();
     }
-
+    
     public void testAssertionFailedErrorToStringWithNoMessage() {
         // Also, we are testing fail, so we can't rely on fail() working.
         // We have to throw the exception manually.
